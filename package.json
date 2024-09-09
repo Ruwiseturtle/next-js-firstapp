@@ -2,11 +2,15 @@
   "name": "next-js-firstapp",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://github.com/Ruwiseturtle/next-js-firstapp",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+
   },
   "dependencies": {
     "eslint-config-prettier": "^9.1.0",
