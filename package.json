@@ -1,5 +1,5 @@
 {
-  "name": "next-js-firstapp",
+  "name": "crm",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,19 +9,21 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "eslint-config-prettier": "^9.1.0",
-    "next": "^14.2.8",
-    "prettier": "^3.3.3",
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1"
+    "next": "14.0.5-canary.51",
+    "react": "^18",
+    "react-dom": "^18"
   },
   "devDependencies": {
     "@types/node": "^20",
-    "@types/react": "^18.3.5",
-    "@types/react-dom": "^18.3.0",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "autoprefixer": "^10.4.20",
     "eslint": "^8",
-    "eslint-config-next": "14.2.8",
-    "gh-pages": "^6.1.1",
+    "eslint-config-next": "14.0.5-canary.51",
+    "eslint-config-prettier": "^9.1.0",
+    "postcss": "^8.4.47",
+    "prettier": "^3.1.1",
+    "tailwindcss": "^3.4.12",
     "typescript": "^5"
   }
 }
