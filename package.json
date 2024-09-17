@@ -6,7 +6,11 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+     "predeploy": "npm run build",
+    "deploy": "gh-pages -d build", 
+    "lint:js": "eslint 'src/**/*.{js,jsx}'"
+
   },
   "dependencies": {
     "@headlessui/react": "^1.7.17",
